@@ -37,7 +37,7 @@ export function FeedbackContentStep({
     //   comment,
     // })
 
-   await api.post('/feedbacks',{
+   await api.post('/feedbacks',{  //Post transfere dados para servidor
      type: feedbackType,
      comment,
      screenshot,
